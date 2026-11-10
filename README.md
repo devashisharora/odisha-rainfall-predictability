@@ -6,7 +6,7 @@ Can past rainfall predict Odisha's monthly rainfall better than a simple seasona
 ## Data
 IMD 0.25° gridded daily rainfall, 2016–2025 (3,653 days, 120 months).
 - Source: India Meteorological Department (IMD) gridded rainfall dataset
-- Raw `.grd` files are not included. Download them from IMD
+- Raw `.grd` files are not included. Download them from IMD (https://imdpune.gov.in/cmpg/Griddata/Rainfall_25_Bin.html)
 - Processed monthly series: `Data/odisha_monthly_rainfall.csv`
 
 ## Method
@@ -33,7 +33,6 @@ The model beat the baseline in 4 of 9 held-out years. Past rainfall alone carrie
 - Leave-one-year-out CV trains on years after the test year, which is looser than a true forecast.
 
 ## Next steps
-- Add ENSO (Niño 3.4) and IOD indices as predictors.
 - Try tree-based models.
 - Use an Odisha shapefile mask.
 - Predict June–September seasonal totals.
