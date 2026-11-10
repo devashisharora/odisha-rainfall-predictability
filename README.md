@@ -6,7 +6,7 @@ Can past rainfall predict Odisha's monthly rainfall better than a simple seasona
 ## Data
 IMD 0.25° gridded daily rainfall, 2016–2025 (3,653 days, 120 months).
 - Source: India Meteorological Department (IMD) gridded rainfall dataset
-- Raw `.grd` files are not included. Download them from IMD [or: Google Drive link]
+- Raw `.grd` files are not included. Download them from IMD
 - Processed monthly series: `Data/odisha_monthly_rainfall.csv`
 
 ## Method
